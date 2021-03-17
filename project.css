@@ -1,0 +1,149 @@
+:root{
+    color-adjust: dark;
+}
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Alegreya'; font-size: 22px;
+    margin: 0;
+    background-color:#181818;
+    color: white;
+}
+.header{
+    padding:30px;
+    text-align: center;
+    background-color: #018dca;
+    color: black;
+    font-family: 'Alegreya Sans SC';
+}
+.header h1{
+    font-size: 50px;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a{
+    float:left;
+    display: block;
+    color:chocolate;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+.navbar a.right{
+    float: right;
+}
+
+.navbar a:hover{
+    background-color:black;
+}
+.navbar a:link{
+    text-decoration: none;
+}
+.navbar a:visited:hover{
+    text-decoration: none;
+}
+.about{
+    text-align: left;
+    margin: 10px;
+}
+.header h2{
+    font-size: 30px;
+}
+p{
+    font-size: 22px;
+}
+.about_image1{
+    float: left;
+    width: 400px;height: 300px;margin: 10px;
+}
+.about_image2{
+    float: right;
+    width: 400px;height: 300px;margin: 10px;
+}
+p{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.about_video{
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.precautions_para1{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+}
+.precautions_para2{
+    padding-bottom: 30px;
+    padding-left: 5px;
+}
+.precautions_images_left{
+    background-color: white;
+    float: left;
+    margin-left: 5px;
+    margin-right: 30px;
+    margin-top: 8px;
+    border-radius: 50%;
+    width: 150px;height: 150px;
+
+}
+.symptoms_img_left{
+    background-color: white;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 200px;height: 200px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.symptoms_img_right{
+    background-color: white;
+    float: right;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    width: 200px;height: 200px;
+    border-radius: 50%;
+}
+.symptoms_para_type_1{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+.symptoms_para_type_2{
+    border-style: ridge;
+    border-color: crimson;
+    border-width: 5px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.footer{
+    display: block;
+    padding: 5px;
+    background-color: #018dca;
+}
+.footer_center{
+    text-align: center;
+    color: black;
+    font-family: 'Alegreya Sans SC';
+}
+.footer.col{
+    float: left;
+    width: 50%;
+    height: 100px;
+    background-color: azure;
+}
+@media (prefers-color-scheme: dark){
+    img{
+        filter: brightness(.8) contrast(1.2);
+    }
+}
