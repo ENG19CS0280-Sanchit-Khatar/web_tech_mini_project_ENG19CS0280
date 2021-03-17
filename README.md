@@ -19,3 +19,5 @@ this a website based on corona virus it has the following contents-
 
 
 link for the static live website:
+
+https://eng19cs0280-sanchit-khatar.github.io/web_tech_mini_project_ENG19CS0280.github.io/
