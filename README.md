@@ -15,7 +15,7 @@ this a website based on corona virus it has the following contents-
 4)cowaxin page.
 
 
-5)register page (this is made to analize the health condition and apply for the vaccination).
+5)register page (this is made to analyze the health condition and apply for the vaccination).
 
 
 link for the static live website:
